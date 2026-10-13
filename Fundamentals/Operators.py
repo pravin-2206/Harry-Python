@@ -57,3 +57,7 @@ print(a)
 
 a**=2
 print(a)
+
+# membership operators like in and not in
+
+# identity operators like is and is not

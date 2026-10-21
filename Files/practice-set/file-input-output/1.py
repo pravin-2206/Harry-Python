@@ -5,3 +5,7 @@
 with open('notes.txt','w') as file:
         string='Learning Python is fun!'
         file.write(string)
+
+with open('notes.txt','r') as file:
+        content=file.read()
+        print(content)

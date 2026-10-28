@@ -25,3 +25,29 @@ names.sort()
 
 print(names)
 
+# Print names that contain the letter "a". 
+
+#result=find.names("A")
+#print(result)
+# names.find("a")
+
+names=['pravin','avi','bhi','sahil']
+for name in names:
+        
+        if "a" in name:
+                print(name)
+                
+print("Frequecy of number")
+                
+names = ["Amit", "Rahul", "Amit", "Neha", "Rahul", "Amit"]
+
+frequency = {}
+
+for name in names:
+    if name in frequency:
+        frequency[name] += 1
+    else:
+        frequency[name] = 1
+
+print(frequency)
+

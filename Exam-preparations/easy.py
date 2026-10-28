@@ -13,3 +13,15 @@ for i in list:
                 print(i)
                 count+=1
 print(count)
+
+# Sort the list of names alphabetically and print them in ascending order. 
+
+print("sort name as alphabetically order")
+# print(list.sort())
+
+names = ["Pravin", "Amit", "Rahul", "Neha", "Sanket"]
+
+names.sort()
+
+print(names)
+

@@ -3,3 +3,7 @@ print(square)
 
 even=[i for i in range(1,11) if i%2==0]
 print(even)
+
+numbers = [1, 2, 2, 3, 3, 4]
+result = {i for i in numbers}
+print(result)

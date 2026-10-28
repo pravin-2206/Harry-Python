@@ -51,3 +51,20 @@ for name in names:
 
 print(frequency)
 
+
+
+names = ["Amit", "Rahul", "Amit", "Neha", "madam", "level"]
+
+for name in names:
+    print("Name:", name)
+    print("Length:", len(name))
+    print("First character:", name[0])
+    print("Last character:", name[-1])
+
+    if name.lower() == name.lower()[::-1]:
+        print("Palindrome: Yes")
+    else:
+        print("Palindrome: No")
+
+    print()
+

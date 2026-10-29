@@ -124,3 +124,11 @@ def sumoflastfourdigit(n):
                 
         return sum(n[-4:])
 print(sumoflastfourdigit([1,2,5,8,6,4,1]))
+
+print("print the half of 3 position elements:")
+
+def half(m):
+        result=[]
+        result.append(m[2]/2)
+        return result
+print(half([10,50,80,50]))

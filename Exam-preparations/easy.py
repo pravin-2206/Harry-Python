@@ -106,4 +106,21 @@ def square(s,n):
         for i in range(s,s+n):
                 result.append(i*i)
         return result
-print(square(1,5))
+print(square(5,10))
+
+print("remove duplicate:")
+
+def duplicate(n):
+        el=[]
+        for i in n:
+                if i not in el:
+                        el.append(i)
+        return el
+print(duplicate([10,20,20,45,10]))
+
+print("Sum of last 4 digits")
+
+def sumoflastfourdigit(n):
+                
+        return sum(n[-4:])
+print(sumoflastfourdigit([1,2,5,8,6,4,1]))

@@ -98,3 +98,12 @@ def outer():
 
 outer()
 print(x)
+
+print("Square of first n numbers starting for s")
+
+def square(s,n):
+        result=[]
+        for i in range(s,s+n):
+                result.append(i*i)
+        return result
+print(square(1,5))

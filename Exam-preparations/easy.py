@@ -78,3 +78,23 @@ for i in numbers():
         print(i)
         # if i==2:
         #         break
+
+print("lambda")
+square=lambda x:x *x
+print(square(5))
+
+print("check basic fuction")
+x = 10
+
+def outer():
+    x = 20
+
+    def inner():
+        nonlocal x
+        x = 30
+
+    inner()
+    print(x)
+
+outer()
+print(x)

@@ -6,5 +6,10 @@
 # f.close()
 
 with open('details.txt','r') as f:
-        cont=f.read()
-        print(cont)
+        # cont=f.read()
+        # print(cont)
+        line=f.readlines()
+        print(line)
+        # print(line)
+        # print(line)
+        

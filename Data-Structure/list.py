@@ -45,3 +45,12 @@ print(extra_list)
 
 extra_list.reverse()  # reverse list
 print(extra_list)
+
+# creating list containing table 5
+
+a=5
+table=[]
+
+for i in range(1,11):
+        table.append(i*a)
+print("table of 5:",table)

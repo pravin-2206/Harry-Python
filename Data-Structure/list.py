@@ -54,3 +54,8 @@ table=[]
 for i in range(1,11):
         table.append(i*a)
 print("table of 5:",table)
+
+# list comprehnesion 
+
+table1=[5*i for i in range (1,11)]
+print(table1)

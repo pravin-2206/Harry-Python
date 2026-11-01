@@ -5,3 +5,6 @@ student={ 'firstname':'Pravin',
 }
 print(student)
 print(student['firstname'])
+
+for i in student:
+        print(i) # display the key only

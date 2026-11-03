@@ -18,3 +18,12 @@ A.remove(20)
 A.discard(50)
 
 print(A)
+
+
+A = {10, 20, 30, 40}
+B = {30, 40, 50, 60}
+
+print(A.union(B))
+print(A.intersection(B))
+print(A.difference(B))
+print(A.symmetric_difference(B))

@@ -11,3 +11,10 @@ print(A)
 
 A.update([50, 60])
 print(A)
+
+A = {10, 20, 30, 40}
+
+A.remove(20)
+A.discard(50)
+
+print(A)

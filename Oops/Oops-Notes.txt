@@ -1,0 +1,19 @@
+Core OOps concept 
+
+1 Class 
+2 Object
+3 Inheritance
+4 Polymorphism
+5 Abstraction
+6 encapsulation 
+
+Class And object 
+
+Class is just template. its doesn't hold any real data on its own. when we create an object from a class that's when actual data gets stored and actions can be performed.
+
+class- Blueprint(eg. design plan of house)
+object - Actual instance build from that blueprint()
+A class define what attribute (data) and methods (actions) an object will have
+multiple objects can be created from the same class each with their own data 
+
+Example : car is a class your honda city and your friend swift are two different objects

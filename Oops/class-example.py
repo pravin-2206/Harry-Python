@@ -18,6 +18,10 @@ class Marks:
                 total=self.Database+self.DSA+self.Database+self.Networking
                 print(f'Sum of marks:',total)
                 
+        def Avg(self):
+                avg=(self.Database+self.DSA+self.Database+self.Networking)/5
+                print("Avg of marks:",avg)
+                
 m=Marks()
 # m.Subject_info(100,99,98,89)
 m.Subject_info()
@@ -25,4 +29,6 @@ m.Subject_info()
 m.Each_Subject_Marks()
 
 m.Sum_of_marks()
+
+m.Avg()
                 

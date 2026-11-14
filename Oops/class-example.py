@@ -11,11 +11,18 @@ class Marks:
                 self.Python=int(input("Enter Python Marks: "))
                 self.Database=int(input("Enter Database Marks: "))
                 self.Networking=int(input("Enter Networking Marks: "))
-        def Total_Marks(self):
+        def Each_Subject_Marks(self):
                 print(f'Marks of Each Subject Python: {self.Python} DSA: {self.DSA} Database: {self.Database} Networking: {self.Networking}' )
+        
+        def Sum_of_marks(self):
+                total=self.Database+self.DSA+self.Database+self.Networking
+                print(f'Sum of marks:',total)
+                
 m=Marks()
 # m.Subject_info(100,99,98,89)
 m.Subject_info()
 
-m.Total_Marks()
+m.Each_Subject_Marks()
+
+m.Sum_of_marks()
                 

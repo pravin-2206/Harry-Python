@@ -16,10 +16,18 @@ class Student:
         #         self.age=int(input("Enter Your Age="))
         #         self.address=input("Enter Your Address=")
         
-        def Set_info(self,name:str,age:int,address:str):
+        # def Set_info(self,name:str,age:int,address:str):
+        #         self.name=name
+        #         self.age=age
+        #         self.address=address
+        
+                
+        def __init__(self,name:str,age:int,address:str):
                 self.name=name
                 self.age=age
                 self.address=address
+                
+                
         
         # create methods 
         def display(self):
@@ -27,9 +35,9 @@ class Student:
                 print(f"name={self.name} ,age={self.age}, Address={self.address}")
         
 
-s=Student() # creating object
-print(s) 
-
+s=Student("Pravin",22,"Sangli") # creating object
+# print(s) 
+s.display()
 # set the values 
 # s.name='Karan'
 # s.age=15
@@ -38,11 +46,11 @@ print(s)
 # print(s.age)
 # print(s.address)
 
-s.Set_info("Pravin",21,'Atpadi')
-s.display()
+# s.Set_info("Pravin",21,'Atpadi')
+# s.display()
 
-print("\nSecond Object")
-s2=Student()
+# print("\nSecond Object")
+# s2=Student()
 # s2.name="Suja"
 # s2.age=24
 # s2.address='Pune'

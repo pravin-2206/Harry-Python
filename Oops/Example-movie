@@ -1,3 +1,21 @@
+'''
+create class movie with the following 
+
+Attributes 
+
+movie_name - name of the movie
+total seats-total seats available in theater
+ticket price- price per ticket
+booked_seat- starts at 0
+
+
+methods 
+
+book_ticket(num_tickets)- books the given number of tickets. if enough seats are available, confirm the booking and show the total amount to pay. if not, show "Sorry, not enough seats available"
+
+show status()- display movies name seats available and seat booked so far
+'''
+
 
 class Movie:
 
@@ -44,7 +62,4 @@ m.book_ticket(10)
 m.show_status()
 
 m.book_ticket(89)
-m.show_status()
-
-m.book_ticket(8)
 m.show_status()

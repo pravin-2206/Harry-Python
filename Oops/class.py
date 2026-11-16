@@ -11,10 +11,15 @@ class Student:
         
         # create one methods that contains class values
         
-        def set_info(self):
-                self.name=input("Enter your name =")
-                self.age=int(input("Enter Your Age="))
-                self.address=input("Enter Your Address=")
+        # def set_info(self):
+        #         self.name=input("Enter your name =")
+        #         self.age=int(input("Enter Your Age="))
+        #         self.address=input("Enter Your Address=")
+        
+        def Set_info(self,name:str,age:int,address:str):
+                self.name=name
+                self.age=age
+                self.address=address
         
         # create methods 
         def display(self):
@@ -33,7 +38,7 @@ print(s)
 # print(s.age)
 # print(s.address)
 
-s.set_info()
+s.Set_info("Pravin",21,'Atpadi')
 s.display()
 
 print("\nSecond Object")
